@@ -19,7 +19,7 @@ a{
 
 .has-pulse:hover {
     -webkit-animation: pulse 1s;
-    animation: pulse 1s;
+    animation: pulse 0.8s;
 }
 .has-jello:hover {
     -webkit-animation: jello 1s;
