@@ -2,6 +2,9 @@
 h2{
   color: #405af3;
 }
+a{
+  color: black;
+}
 
 .has-shadow{
   border-radius: 10px;
