@@ -1,9 +1,6 @@
-
+/* ------- General styling ------- */
 h2{
   color: #405af3;
-}
-a{
-  color: black;
 }
 
 .has-shadow{
@@ -12,11 +9,16 @@ a{
   background: rgba(0,0,0,0.8);
 }
 
+/* ------- BOX ------- */
+
+
 .has-border {
   border: 12px solid #405af3;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
   margin: 0px 0px 0px 20px;
 }
+
+/* ------- ANIMATIONS ------- */
 
 .has-pulse:hover {
   -webkit-animation: pulse 1s;
@@ -31,6 +33,8 @@ a{
     animation: bounce 1s;
 }
 
+/* ------- Image styling ------- */
+
 .has-roundededge{
   border-radius: 1px 50px;
   background: #405af3;
@@ -44,3 +48,27 @@ a{
 .is-horizontal-center {
   justify-content: center;
 }
+
+/* ------- LINK DIV ------- */
+
+button{
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 3px solid #405af3;
+  background: white;
+  width: 150px;
+  padding: 8px 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+a{
+  color: black;
+}
+
+/* ------- Devicon ------- */
+
+.devicon{
+    padding-top: 30px;
+    font-size: 50px;
+    padding: 0 10px;
+  }
