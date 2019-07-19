@@ -67,8 +67,9 @@ button{
 }
 
 button:hover {
-    background-color: #405af3;
-    color: white
+  transition: color 1s, background-color 1s;
+  background-color: #405af3;
+  color: white
 }
 
 a{
